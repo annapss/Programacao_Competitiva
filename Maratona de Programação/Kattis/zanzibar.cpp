@@ -9,30 +9,19 @@ int main()
     cin >> testes;
     for(int i = 0; i < testes; i++)
     {
-        ano = 1; 
-        total_tartarugas_nativas = 0;
+        total_tartarugas = 1;
         total_tartarugas_imigrantes = 0;
         do
         {
+            total_tartarugas_nativas = total_tartarugas;
             cin >> total_tartarugas;
             if(total_tartarugas != 0)
             {
-                if(ano == 1)
-                    total_tartarugas_nativas = total_tartarugas;
-                else
+                if(total_tartarugas > total_tartarugas_nativas * 2)
                 {
-                    if(total_tartarugas > (total_tartarugas_imigrantes + total_tartarugas_nativas) * 2)
-                    {
-                        total_tartarugas_nativas = (total_tartarugas_imigrantes + total_tartarugas_nativas) * 2;
-                        total_tartarugas_imigrantes += total_tartarugas - total_tartarugas_nativas;
-                    }
-                    else
-                    {
-                        total_tartarugas_nativas = total_tartarugas;
-                    }
+                    total_tartarugas_imigrantes += total_tartarugas - (total_tartarugas_nativas * 2);
                 }
-            }
-            ano++; 
+            } 
         } while(total_tartarugas != 0);
         cout << total_tartarugas_imigrantes << '\n';
     }

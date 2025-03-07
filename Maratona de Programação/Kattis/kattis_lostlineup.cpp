@@ -1,5 +1,6 @@
 //https://open.kattis.com/problems/lostlineup
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 pair<int,int> valores[101];

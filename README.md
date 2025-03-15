@@ -4,5 +4,5 @@ Resolução de exercícios de programação competitiva que estão disponíveis 
 <img src="download.png" height="70" weight="70"/> <img src="https://maratona.sbc.org.br/img/maratona-logo.jpg" height="70" weight="70"/>
 
 ## Organização do Repositório
-- OBI: Exercícios realizados enquanto eu estava treinando para a OBI
-- Maratona de Programação: Exercícios realizados com foco em treinar para a Maratona de Programação. Neste diretório, os exercícios estão organizados por online judge
+- **OBI**: Exercícios realizados enquanto eu estava treinando para a OBI
+- **Maratona de Programação**: Exercícios realizados com foco em treinar para a Maratona de Programação. Neste diretório, os exercícios estão organizados por online judge
